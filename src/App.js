@@ -12,6 +12,7 @@ function App() {
      <Testimonial />
      <Reservation />
      <Footer />
+     <div className="min-h-[2000px]" />
     </div>
   );
 }

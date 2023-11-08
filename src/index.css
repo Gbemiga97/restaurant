@@ -39,3 +39,8 @@
     @apply h-[56px] w-[316px] outline-none pl-[30px] rounded-full border-2 border-gray-200 font-secondary font-semibold text-base text-dark  placeholder:text-dark;
   }
 }
+
+
+*{
+  scroll-behavior: smooth;
+}

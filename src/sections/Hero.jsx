@@ -7,7 +7,7 @@ const Hero = () => {
 
 
   return (
-   <section className="min-h-[980px] bg-hero bg-cover bg-right">
+   <section id="/" className="min-h-[980px] bg-hero bg-cover bg-right">
     <div className="container mx-auto min-h-[980px] flex justify-center items-center">
 
       <motion.div 
