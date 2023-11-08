@@ -11,7 +11,9 @@ import ChefImg from '../assets/img/team/chef.png';
 import Avatar1 from '../assets/img/testimonial/avatar1.png';
 import Avatar2 from '../assets/img/testimonial/avatar2.png';
 import Avatar3 from '../assets/img/testimonial/avatar3.png';
-
+import LogoWhite from '../assets/img/header/logo-white.png'
+import LogoOrang from '../assets/img/header/logo-orange.png'
+import LogoDark from '../assets/img/header/logo-dark.png'
 
 
 const images = {
@@ -27,7 +29,11 @@ const images = {
     Avatar1,
     Avatar2,
     Avatar3,
+    LogoWhite,
+    LogoOrang,
+    LogoDark
 }
+
 
 
 export default images

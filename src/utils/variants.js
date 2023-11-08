@@ -48,11 +48,49 @@ export const plateVariants = {
 };
 
 
+const headerVariants = {
+  hidden: {
+    padding: '84px 0 84px 0',
+    background: 'none'
+  },
+  show: {
+    padding: '14px 0 14px 0',
+    background: 'rgba(0,0,0,0.92)',
+    transition: {
+      type: 'spring',
+    }
+  }
+}
+
+
+const navVariants = {
+  hidden: {
+    clipPath: 'circle(5.8% at 50% 0)',
+    opacity: 0,
+    transition: {
+      type: 'spring',
+      delay: 0.2,
+      stiffness: 300,
+      damping: 140,
+    }
+  },
+  show: {
+    opacity: 1,
+    clipPath: 'circle(130% at 50% 0)',
+    transition: {
+        type: 'spring',
+        stiffness: 80,
+    }
+  }
+}
 
 const variants = {
   fadeIn,
   staggerContainer,
   plateVariants,
+  headerVariants,
+  navVariants,
+
 }
 
 export default variants;

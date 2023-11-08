@@ -85,14 +85,14 @@ import images from './images';
   sub2: 'Sequi exercitationem quae deserunt reiciendis nesciunt perferendis atque quisquam, odit facere! Minima esse reiciendis, magnam fugiat totam maxime consequatur perspiciatis voluptas consequuntur.',
   name: 'sara peter',
   occupation: 'executive chef',
-  signatureImg: SignatureImg,
+  signatureImg: images.SignatureImg,
   chefImg: images.ChefImg,
 };
 
  const testimonialData = {
   title: "what client's say ",
   subtitle: '1500+ statisfied clients',
-  modelImg: images.images.ModelWhiteImg,
+  modelImg: images.ModelWhiteImg,
   slider: [
     {
       message:
