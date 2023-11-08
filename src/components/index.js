@@ -1,4 +1,4 @@
-import Carousel from "./Carousel";
+import TestimonialCarousel from "./TestimonialCarousel";
 import Copyright from "./Copyright";
 import Nav from "./Nav";
 import NewsLetter from "./NewsLetter";
@@ -8,7 +8,7 @@ import Socials from "./Socials";
 
 
 export {
-    Carousel,
+    TestimonialCarousel,
     Copyright,
     Nav,
     NewsLetter,
