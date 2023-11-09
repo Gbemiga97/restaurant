@@ -1,6 +1,16 @@
+.react-time-picker{
+  background: white;
+}
+
 .react-time-picker__wrapper {
   border: none;
 }
 .react-time-picker__inputGroup__input {
   outline: none;
+}
+
+
+.react-time-picker__inputGroup{
+  outline: none;
+  border: none;
 }
